@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Yueru Yan - Personal Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,15 +14,10 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="#" class="nav-logo">Your Name</a>
+            <a href="#" class="nav-logo">Yueru Yan</a>
             <ul class="nav-menu">
                 <li><a href="#bio">Bio</a></li>
                 <li><a href="#papers">Papers</a></li>
-                <li><a href="#talks">Talks</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#teaching">Teaching</a></li>
             </ul>
             <div class="nav-icons">
                 <button class="icon-btn"><i class="fas fa-search"></i></button>
@@ -36,7 +31,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero/Bio Section -->
     <section class="hero" id="bio">
         <div class="hero-bg">
             <svg class="wave-bg" viewBox="0 0 1440 600" preserveAspectRatio="none">
@@ -49,41 +44,40 @@
         <div class="hero-content">
             <div class="profile-section">
                 <div class="profile-image-container">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop&crop=face" alt="Profile Photo" class="profile-image">
+                    <!-- Replace with your actual photo -->
+                    <img src="profile.jpg" alt="Yueru Yan" class="profile-image">
                     <span class="status-indicator" title="Available for collaboration">
                         <i class="fas fa-coffee"></i>
                     </span>
                 </div>
-                <h1 class="name">Your Name</h1>
-                <p class="name-chinese">你的名字</p>
-                <p class="title">Graduate Researcher</p>
-                <p class="affiliation">Indiana University</p>
+                <h1 class="name">Yueru Yan</h1>
+                <!-- <p class="name-chinese">严月茹</p> -->
+                <p class="title">PhD Student</p>
+                <p class="affiliation">Indiana University Bloomington</p>
                 
                 <div class="social-links">
-                    <a href="#" title="Email"><i class="fas fa-at"></i></a>
+                    <a href="mailto:yueryan@iu.edu" title="Email"><i class="fas fa-at"></i></a>
                     <a href="#" title="Twitter/X"><i class="fab fa-x-twitter"></i></a>
-                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
                     <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
                     <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#" title="Google Scholar"><i class="fab fa-google-scholar"></i></a>
-                    <a href="#" title="ORCID"><i class="fab fa-orcid"></i></a>
                 </div>
             </div>
             
             <div class="about-section">
                 <h2>About Me</h2>
                 <p class="bio-text">
-                    I am a graduate researcher at Indiana University, specializing in social media analysis and digital communication. 
-                    My research focuses on conversational AI systems, analyzing how people interact with AI assistants across different platforms. 
-                    I employ computational methods including natural language processing, statistical analysis, and machine learning to understand 
-                    patterns in human-AI communication.
+                    I am a PhD student in Information Science with a minor in Computer Science at Indiana University Bloomington. 
+                    My research lies at the intersection of computational social science, social media analytics, and algorithm auditing. 
+                    I employ computational methods including natural language processing, statistical analysis, and machine learning to 
+                    understand patterns in human-AI communication and platform behaviors.
                 </p>
                 <p class="bio-text">
-                    Currently, I'm working on large-scale dataset analysis of AI conversations, exploring topics like toxicity detection, 
-                    sentiment analysis, and cross-platform behavioral differences.
+                    Currently, I'm working on large-scale conversational AI datasets, TikTok algorithm auditing, and LLM fairness evaluation. 
+                    Previously, I worked at Samsung Research Center on machine learning approaches for mental health detection.
                 </p>
                 
-                <a href="#" class="download-btn">
+                <a href="Yueru_Yan_PhD_CV.pdf" class="download-btn">
                     <i class="fas fa-download"></i>
                     Download CV
                 </a>
@@ -92,10 +86,10 @@
                     <div class="info-card">
                         <h3>Interests</h3>
                         <ul>
-                            <li><i class="fas fa-robot"></i> Conversational AI</li>
-                            <li><i class="fas fa-language"></i> Computational Linguistics</li>
+                            <li><i class="fas fa-language"></i> Computational Social Science</li>
                             <li><i class="fas fa-chart-bar"></i> Social Media Analytics</li>
-                            <li><i class="fas fa-brain"></i> Machine Learning</li>
+                            <li><i class="fas fa-brain"></i> Algorithm Auditing</li>
+                            <li><i class="fas fa-calculator"></i> Statistics</li>
                         </ul>
                     </div>
                     
@@ -106,14 +100,24 @@
                                 <i class="fas fa-graduation-cap"></i>
                                 <div>
                                     <strong>PhD Information Science</strong>
-                                    <span>Indiana University</span>
+                                    <span>Indiana University Bloomington</span>
+                                    <span class="year">2023 – 2027 (expected)</span>
                                 </div>
                             </li>
                             <li>
                                 <i class="fas fa-graduation-cap"></i>
                                 <div>
-                                    <strong>MS Information Science</strong>
-                                    <span>Your Previous University</span>
+                                    <strong>MS Applied Statistics</strong>
+                                    <span>Beijing Normal University</span>
+                                    <span class="year">2021 – 2023</span>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-graduation-cap"></i>
+                                <div>
+                                    <strong>BS Journalism</strong>
+                                    <span>Beijing Foreign Studies University</span>
+                                    <span class="year">2015 – 2019</span>
                                 </div>
                             </li>
                         </ul>
@@ -123,9 +127,145 @@
         </div>
     </section>
 
+    <!-- Papers Section -->
+    <section class="papers-section" id="papers">
+        <div class="section-container">
+            <h2 class="section-title">
+                <i class="fas fa-file-alt"></i>
+                Papers
+            </h2>
+
+            <!-- Preprints -->
+            <h3 class="paper-category">Preprints</h3>
+            
+            <article class="paper-card">
+                <div class="paper-year">2025</div>
+                <div class="paper-content">
+                    <h3 class="paper-title">
+                        ShareChat: A Dataset of Chatbot Conversations in the Wild
+                        <span class="paper-badge">Preprint</span>
+                    </h3>
+                    <p class="paper-authors">
+                        <strong>Yueru Yan</strong>, Tuc Nguyen, Bo Su, Melissa Lieffers, Thai Le
+                    </p>
+                    <p class="paper-venue">
+                        <i class="fas fa-archive"></i> arXiv:2512.17843
+                    </p>
+                    <p class="paper-abstract">
+                        A large-scale, cross-platform corpus comprising 142,808 conversations and over 660,000 turns collected from publicly shared URLs across five major platforms: ChatGPT, Claude, Gemini, Perplexity, and Grok.
+                    </p>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/pdf/2512.17843" class="paper-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                        <a href="https://arxiv.org/abs/2512.17843" class="paper-link"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="paper-card">
+                <div class="paper-year">2025</div>
+                <div class="paper-content">
+                    <h3 class="paper-title">
+                        Fairness Evaluation of Large Language Models in Academic Library Reference Services
+                        <span class="paper-badge">Preprint</span>
+                    </h3>
+                    <p class="paper-authors">
+                        Haining Wang, Jason Clark, <strong>Yueru Yan</strong>, et al.
+                    </p>
+                    <p class="paper-venue">
+                        <i class="fas fa-archive"></i> arXiv:2507.04224
+                    </p>
+                    <p class="paper-abstract">
+                        Evaluates whether LLMs differentiate responses across user identities by prompting six state-of-the-art LLMs to assist patrons differing in sex, race/ethnicity, and institutional role.
+                    </p>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/pdf/2507.04224" class="paper-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                        <a href="https://arxiv.org/abs/2507.04224" class="paper-link"><i class="fas fa-external-link-alt"></i> arXiv</a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Under Review -->
+            <h3 class="paper-category">Under Review</h3>
+
+            <article class="paper-card">
+                <div class="paper-year">2025</div>
+                <div class="paper-content">
+                    <h3 class="paper-title">
+                        Auditing Algorithmic Personalization in TikTok Comment Sections
+                        <span class="paper-badge review">Under Review</span>
+                    </h3>
+                    <p class="paper-authors">
+                        <strong>Yueru Yan</strong>, Siqi Wu
+                    </p>
+                    <p class="paper-venue">
+                        <i class="fas fa-paper-plane"></i> ICWSM 2026
+                    </p>
+                    <p class="paper-abstract">
+                        Designed and built a large-scale TikTok political video & comment dataset (4,691 videos, 10M+ comments) and used LLM to analyze how user ideological leanings influence comment ranking under political videos.
+                    </p>
+                </div>
+            </article>
+
+            <!-- Published -->
+            <h3 class="paper-category">Published</h3>
+            
+            <article class="paper-card">
+                <div class="paper-year">2025</div>
+                <div class="paper-content">
+                    <h3 class="paper-title">Hardship Streamers in Live Crowdfunding</h3>
+                    <p class="paper-authors">
+                        <strong>Yueru Yan</strong>, Pnina Fichman
+                    </p>
+                    <p class="paper-venue">
+                        <i class="fas fa-book"></i> iConference 2025
+                    </p>
+                    <div class="paper-links">
+                        <a href="#" class="paper-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="paper-card">
+                <div class="paper-year">2022</div>
+                <div class="paper-content">
+                    <h3 class="paper-title">A CNN Model with Discretized Mobile Features for Depression Detection</h3>
+                    <p class="paper-authors">
+                        <strong>Yueru Yan</strong>, et al.
+                    </p>
+                    <p class="paper-venue">
+                        <i class="fas fa-book"></i> IEEE BSN 2022
+                    </p>
+                    <p class="paper-abstract">
+                        Developed and applied sequential machine learning models, including CNN, LSTM, and a custom-designed DEP-CASER model for depression detection, achieving a state-of-the-art accuracy of 0.83.
+                    </p>
+                    <div class="paper-links">
+                        <a href="#" class="paper-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="paper-card">
+                <div class="paper-year">2022</div>
+                <div class="paper-content">
+                    <h3 class="paper-title">Detecting Depression, Anxiety and Mental Stress in One Sequential Model with Multi-task Learning</h3>
+                    <p class="paper-authors">
+                        Shen Zhang, Mei Tu, <strong>Yueru Yan</strong>, Yimeng Zhuang, Likun Ge, Gaoxia Wei
+                    </p>
+                    <p class="paper-venue">
+                        <i class="fas fa-book"></i> HCI International 2022 – Late Breaking Papers
+                    </p>
+                    <div class="paper-links">
+                        <a href="#" class="paper-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                    </div>
+                </div>
+            </article>
+            
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 Your Name. Powered by GitHub Pages.</p>
+        <p>&copy; 2025 Yueru Yan. Powered by GitHub Pages.</p>
     </footer>
 
     <script>
