@@ -34,81 +34,33 @@
     <!-- Hero/Bio Section -->
     <section class="hero" id="bio">
         <div class="hero-bg">
-            <!-- <svg class="wave-bg" viewBox="0 0 1440 800" preserveAspectRatio="none">
+            <svg class="wave-bg" viewBox="0 0 1440 800" preserveAspectRatio="none">
                 <!-- Smooth rolling wave curves matching the reference -->
-                <path d="M0,800 L0,400 Q360,340 720,420 T1440,380 L1440,800 Z" fill="rgba(255,255,255,0.035)"/>
-                <path d="M0,800 L0,450 Q360,380 720,420 T1440,380 L1440,800 Z" fill="rgba(255,255,255,0.035)"/>
+                <!-- <path d="M0,800 L0,400 Q360,340 720,420 T1440,380 L1440,800 Z" fill="rgba(255,255,255,0.035)"/>
+                <path d="M0,800 L0,450 Q360,380 720,420 T1440,380 L1440,800 Z" fill="rgba(255,255,255,0.03)"/>
                 <path d="M0,800 L0,500 Q300,420 600,480 Q900,540 1200,460 Q1350,420 1440,450 L1440,800 Z" fill="rgba(255,255,255,0.025)"/>
-                <path d="M0,800 L0,550 Q400,480 800,540 Q1100,590 1440,520 L1440,800 Z" fill="rgba(255,255,255,0.02)"/>
-            </svg> -->
-            <svg class="wave-bg" viewBox="0 0 1440 800" preserveAspectRatio="none" aria-hidden="true">
-              <!-- Layer 1 -->
-              <path fill="rgba(255,255,255,0.035)">
-                <animate
-                  attributeName="d"
-                  dur="14s"
-                  repeatCount="indefinite"
-                  calcMode="spline"
-                  keyTimes="0;0.5;1"
-                  keySplines="0.42 0 0.58 1;0.42 0 0.58 1"
-                  values="
-                    M0,800 L0,400 Q360,340 720,420 T1440,380 L1440,800 Z;
-                    M0,800 L0,390 Q360,360 720,400 T1440,410 L1440,800 Z;
-                    M0,800 L0,400 Q360,340 720,420 T1440,380 L1440,800 Z
-                  "
-                />
-              </path>
-            
-              <!-- Layer 2 -->
-              <path fill="rgba(255,255,255,0.035)">
-                <animate
-                  attributeName="d"
-                  dur="12s"
-                  repeatCount="indefinite"
-                  calcMode="spline"
-                  keyTimes="0;0.5;1"
-                  keySplines="0.42 0 0.58 1;0.42 0 0.58 1"
-                  values="
-                    M0,800 L0,450 Q360,380 720,420 T1440,380 L1440,800 Z;
-                    M0,800 L0,470 Q360,360 720,440 T1440,360 L1440,800 Z;
-                    M0,800 L0,450 Q360,380 720,420 T1440,380 L1440,800 Z
-                  "
-                />
-              </path>
-            
-              <!-- Layer 3 -->
-              <path fill="rgba(255,255,255,0.025)">
-                <animate
-                  attributeName="d"
-                  dur="10s"
-                  repeatCount="indefinite"
-                  calcMode="spline"
-                  keyTimes="0;0.5;1"
-                  keySplines="0.42 0 0.58 1;0.42 0 0.58 1"
-                  values="
-                    M0,800 L0,500 Q300,420 600,480 Q900,540 1200,460 Q1350,420 1440,450 L1440,800 Z;
-                    M0,800 L0,515 Q300,440 600,455 Q900,520 1200,485 Q1350,450 1440,430 L1440,800 Z;
-                    M0,800 L0,500 Q300,420 600,480 Q900,540 1200,460 Q1350,420 1440,450 L1440,800 Z
-                  "
-                />
-              </path>
-            
-              <!-- Layer 4 -->
-              <path fill="rgba(255,255,255,0.02)">
-                <animate
-                  attributeName="d"
-                  dur="9s"
-                  repeatCount="indefinite"
-                  calcMode="spline"
-                  keyTimes="0;0.5;1"
-                  keySplines="0.42 0 0.58 1;0.42 0 0.58 1"
-                  values="
-                    M0,800 L0,550 Q400,480 800,540 Q1100,590 1440,520 L1440,800 Z;
-                    M0,800 L0,565 Q400,500 800,515 Q1100,570 1440,545 L1440,800 Z;
-                    M0,800 L0,550 Q400,480 800,540 Q1100,590 1440,520 L1440,800 Z
-                  "
-                />
-              </path>
+                <path d="M0,800 L0,550 Q400,480 800,540 Q1100,590 1440,520 L1440,800 Z" fill="rgba(255,255,255,0.02)"/> -->
+                <!-- More harmonious rolling wave curves -->
+                <path d="M0,800 L0,380
+                         Q240,330 480,380
+                         T960,360
+                         T1440,400
+                         L1440,800 Z" fill="rgba(255,255,255,0.035)"/>
+                <path d="M0,800 L0,430
+                         Q240,380 480,430
+                         T960,410
+                         T1440,450
+                         L1440,800 Z" fill="rgba(255,255,255,0.03)"/>
+                <path d="M0,800 L0,485
+                         Q220,430 460,485
+                         T920,470
+                         T1440,505
+                         L1440,800 Z" fill="rgba(255,255,255,0.025)"/>
+                <path d="M0,800 L0,545
+                         Q260,490 520,545
+                         T1040,530
+                         T1440,565
+                         L1440,800 Z" fill="rgba(255,255,255,0.02)"/>
             </svg>
         </div>
         
@@ -134,14 +86,12 @@
             <div class="about-section">
                 <h2>About Me</h2>
                 <p class="bio-text">
-                    I am a PhD student in Information Science with a minor in Computer Science at Indiana University Bloomington. I am advised by Professor Susan Herring, Siqi Wu and Thai Le.
-                    My research lies at the intersection of computational social science and Artifical Intelligence, with a focus on social media data. 
-                    I employ computational methods including natural language processing, statistical analysis, and machine learning to 
-                    understand patterns in human-AI communication and platform behaviors.
+                    I am a PhD student in Information Science with a minor in Computer Science at Indiana University Bloomington, advised by Prof. Susan Herring, Prof. Siqi Wu, and Prof. Thai Le. 
+                    My research lies at the intersection of computational social science and artificial intelligence. I employ computational methods, including natural language processing, statistical analysis, and machine learning, to understand how AI influences human behaviors, particularly in communication and information seeking.
                 </p>
                 <p class="bio-text">
                     Currently, I'm working on large-scale conversational AI datasets, algorithm auditing, and LLM fairness evaluation. 
-                    Previously, I worked at the Languages Understanding Lab at Samsung Research Center on machine learning approaches for mental health detection.
+                    Previously, I worked at the Language Understanding Lab at Samsung Research Center on machine learning approaches for mental health detection.
                 </p>
                 
                 <a href="Yueru_Yan_PhD_CV.pdf" class="download-btn">
@@ -321,11 +271,11 @@
                     <p class="paper-authors">
                         Shen Zhang, Mei Tu, <strong>Yueru Yan</strong>, Yimeng Zhuang, Likun Ge, Gaoxia Wei
                     </p>
-                    <p class="paper-abstract">
-                        Proposed a multi task, sequence based mobile sensing model that jointly predicts depression, anxiety, and stress, achieving 0.78 average accuracy and 0.78 average AUC, and outperforming single task and statistical feature baselines.
-                    </p>
                     <p class="paper-venue">
                         <i class="fas fa-book"></i> HCI International 2022 – Late Breaking Papers
+                    </p>
+                    <p class="paper-abstract">
+                        Proposed a multi task, sequence based mobile sensing model that jointly predicts depression, anxiety, and stress, achieving 0.78 average accuracy and 0.78 average AUC, and outperforming single task and statistical feature baselines.
                     </p>
                     <div class="paper-links">
                         <a href="https://link.springer.com/chapter/10.1007/978-3-031-17902-0_14" class="paper-link"><i class="fas fa-file-pdf"></i> PDF</a>
